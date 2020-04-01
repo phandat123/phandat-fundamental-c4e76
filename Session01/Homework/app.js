@@ -75,3 +75,35 @@
 // console.log(result);
 
 //bai 5
+
+// let a = prompt("Nhap a : ");
+// let b = prompt("Nhap b : ");
+// let c = prompt("Nhap c : ");
+
+// let delta = b*b - 4 * a * c; 
+
+// if(delta < 0){
+//     console.log("Phuong tinh vo nghiem");
+// }else if(delta === 0){
+//     console.log("x = " + (-b/(2 * a)));
+// }else{
+//     console.log("x1 = " + ((-b + Math.sqrt(delta))/ 2 * a));
+//     console.log("x1 = " + ((-b - Math.sqrt(delta))/ 2 * a));
+// }
+
+//bai6
+
+
+// let check = true;
+// while(check){
+//     let a = prompt("Nhập chuỗi cần đảo ngược : ");
+//     let aReverse = "";
+//     for(let i = a.length; i > 0; i--){
+//         aReverse += a[i - 1];
+//     }
+//     console.log(aReverse);
+//     let b = prompt("Bạn có muốn tiếp tục chương trình không");
+//     if(b !== "yes"){
+//         check = false;
+//     }
+// }
